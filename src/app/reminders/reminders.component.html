@@ -1,0 +1,7 @@
+<h2>Active Reminders</h2>
+<ul class="reminders">
+  <li *ngFor="let reminder of reminders">
+    <span class="badge">{{reminder.id}}</span>{{reminder.name}}
+  </li>
+
+</ul>
